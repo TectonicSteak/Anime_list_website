@@ -39,9 +39,20 @@ const App = () =>{
                 />
             </div>
             
-            <div className="container">
-                <AnimeCard Anime={animes[0]}/>
-            </div>
+            {
+                animes?.length > 0
+                    ? (
+                        <div className="container">
+                            {animes.map((anime) => (
+                                <AnimeCard Anime={anime}/>
+                            ))};
+                        </div>
+                    ):(
+                        <div className="empty">
+                            <h2>No Animes Found</h2>
+                        </div>
+                    )
+            }
         </div>
     );
 }
