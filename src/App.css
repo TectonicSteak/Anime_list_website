@@ -40,6 +40,11 @@ h1 {
   width: fit-content;
 }
 
+h1:hover{
+  cursor: pointer;
+  scale: 105%;
+}
+
 .search {
   width: 71%;
   margin: 4rem 0 2rem;
@@ -66,6 +71,21 @@ h1 {
   outline: none;
   color: #a1a1a1;
   background: #1f2123;
+}
+
+.load-more {
+  padding: 15px 40px;
+  border-radius: 25px;
+  background: rgb(240, 194, 154);
+  font-size: 1rem;
+  color:#1c1d1f;
+  font-family: var(--font-raleway)
+  
+}
+
+.load-more:hover{
+  scale: 105%;
+  background: rgb(252, 195, 145);
 }
 
 .search img {
