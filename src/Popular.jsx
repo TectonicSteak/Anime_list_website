@@ -57,7 +57,7 @@ const Popular = () =>{
                     ? (
                         <div className="container">
                             {animes.map((anime) => (
-                                <a key={anime.mal_id} href="./AnimePage">
+                                <a key={anime.mal_id} href="./anime">
                                     <AnimeCard Anime={anime}/>
                                 </a>
                             ))};

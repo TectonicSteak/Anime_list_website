@@ -8,7 +8,7 @@ const App = () =>{
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Popular />}/>
-                <Route path="/anime/:id" element={<AnimePage/>}/>
+                <Route path="./anime" element={<AnimePage />}/>
             </Routes>
         </BrowserRouter>
     )
