@@ -2,7 +2,7 @@ import React from "react";
 
 const AnimePage = () =>{
     return(
-        <div>Anime Page</div>
+        <h1>ANIME PAGE</h1>
     )
 }
 
